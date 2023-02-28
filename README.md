@@ -7,7 +7,7 @@
 ## Install Dependency
 
 ```
-curl -OL https://github.com/cbot918/ipy/archive/refs/tags/v0.0.1.tar.gz && tar -xzf v0.0.1.tar.gz && sudo mv ipy-0.0.1/ipy /usr/local/bin
+curl -OL https://github.com/cbot918/ipy/archive/refs/tags/v0.0.1.tar.gz && tar -xzf v0.0.1.tar.gz && sudo chmod +x ipy-0.0.1/ipy &&sudo mv ipy-0.0.1/ipy /usr/local/bin
 ```
 
 ## Usecase
@@ -15,13 +15,13 @@ curl -OL https://github.com/cbot918/ipy/archive/refs/tags/v0.0.1.tar.gz && tar -
 ### create postgres server
 
 ```
-docker run -dit --name [container_name] -e POSTGRES_PASSWORD=12345 postgres
+sudo docker run -dit --name [container_name] -e POSTGRES_PASSWORD=12345 postgres
 ```
 
 ### connect to postgres server
 
 ```
-docker run -it --rm postgres psql -h `ipy [container_name]` -U postgres -W
+sudo docker run -it --rm postgres psql -h `ipy [container_name]` -U postgres -W
 ```
 
 <br/>
