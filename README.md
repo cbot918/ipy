@@ -1,6 +1,6 @@
 # IPY
 
-### One Liner Create PostgreSQL Server And Connect With Client
+### A Toy project To Wrap One Liner Create PostgreSQL Server And Connect With Client
 
 <br/>
 
