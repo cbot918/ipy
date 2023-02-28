@@ -15,7 +15,7 @@ curl -OL https://github.com/cbot918/ipy/archive/refs/tags/v0.0.1.tar.gz && tar -
 ### create postgres server
 
 ```
-docker run -it --name [container_name] -e POSTGRES_PASSWORD=12345 postgres
+docker run -dit --name [container_name] -e POSTGRES_PASSWORD=12345 postgres
 ```
 
 ### connect to postgres server
