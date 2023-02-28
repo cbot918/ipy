@@ -9,3 +9,8 @@ test:
 
 .PHONY: psqlc test psqls
 .SILENT: psqlc test psqls
+
+
+
+
+curl -OL https://github.com/cbot918/ipy/archive/refs/tags/v0.0.1.tar.gz && tar -xzf v0.0.1.tar.gz && sudo mv ipy-0.0.1/ipy /usr/local/bin
