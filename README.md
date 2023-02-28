@@ -28,10 +28,10 @@ docker run -it --rm postgres psql -h `ipy [container_name]` -U postgres -W
 
 ## ipy detail
 
-### docker network inspect bridge, search and return target container's ip address for connect purpose
+- docker network inspect bridge, search and return target container's ip address for connect purpose
 
 <br/>
 
 ## Test and PreRequesties
 
-### linux / docker
+- linux / docker
