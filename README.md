@@ -1,6 +1,6 @@
 # IPY
 
-### A Toy project To Wrap One Liner Create PostgreSQL Server And Connect With Client
+### A Toy project To Wrap One Liner To Create PostgreSQL Server Container And Connect With PSQL Client Container
 
 <br/>
 
