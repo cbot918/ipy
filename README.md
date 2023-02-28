@@ -1,4 +1,4 @@
-# ipy
+# IPY
 
 ### One Liner Create PostgreSQL Server And Connect With Client
 
